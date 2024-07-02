@@ -15,6 +15,14 @@ import {
   git,
   figma,
   docker,
+  python,
+  csharp,
+  swift,
+  java,
+  bootstrap,
+  firebase,
+  postman,
+  vite,
   meta,
   starbucks,
   tesla,
@@ -76,20 +84,32 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "csharp",
+    icon: csharp,
+  },
+  {
+    name: "swift",
+    icon: swift,
+  },
+  {
+    name: "java",
+    icon: java,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -98,6 +118,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Three JS",
@@ -112,8 +136,12 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "vite",
+    icon: vite,
   },
 ];
 
