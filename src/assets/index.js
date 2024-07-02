@@ -41,6 +41,9 @@ import google from "./company/google.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sentijournal from "./sentijournal.png";
+import politicallycorrect from "./politicallycorrect.png";
+import booknook from "./booknook.png";
 
 export {
   logo,
@@ -82,4 +85,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  sentijournal,
+  politicallycorrect,
+  booknook,
 };

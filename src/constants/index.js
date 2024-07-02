@@ -30,6 +30,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  sentijournal,
+  politicallycorrect,
+  booknook,
   threejs,
   elevateconsulting,
   microsoft,
@@ -227,16 +230,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SentiJournal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based journal that allows users to get a sentiment analysis emotion from their entries and view a graph to see how their mood has changed over time.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -244,50 +247,46 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sentijournal,
+    source_code_link: "https://github.com/caowens/SentiJournalApp",
   },
   {
-    name: "Job IT",
+    name: "Politically Correct",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to see which news sites have which political bias, and filter between left-leaning, right-leaning, and center.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: politicallycorrect,
+    source_code_link: "https://github.com/caowens/politically-correct",
   },
   {
-    name: "Trip Guide",
+    name: "Book Nook",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An iOS application that allows users to view and read available free books and manage thier own collections.",
     tags: [
       {
-        name: "nextjs",
+        name: "swift",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "uikit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "google books api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: booknook,
+    source_code_link: "https://github.com/caowens/BookNook",
   },
 ];
 
