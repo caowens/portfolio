@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  elevateconsulting,
+  microsoft,
+  google,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +119,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Elevate Consulting",
+    icon: elevateconsulting,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Designing, developing and maintaining a web application using React.js and other related technologies.",
+      "Collaborating with designers and managers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Consulting with clients for help with their websites or software-related problems for their small business.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer Intern",
+    company_name: "Microsoft",
+    icon: microsoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimized the Signature Release pipeline to reduce certification time for malware signatures, increasing availability of updates for the Microsoft Defender for Endpoint antivirus.",
+      "Implemented an intelligent virtual file system that applies caching logic, which projects and downloads files from a remote hierarchical backing store based on need of files, and doesn’t redownload files with new requests.",
+      "Integrated virtual file system implementation into the signature release pipeline, improving signature certification for over 1 billion devices.",
+    ],
+  },
+  {
+    title: "Explore Intern (SWE + PM)",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#383E56",
+    date: "May 2022 - Aug 2022",
+    points: [
+      "Collaborated with two other Explore interns to implement an automation pipeline tool for increasing anti-phishing security on Microsoft Edge.",
+      "Implemented an application with .NET framework that transforms, authenticates, and uploads phishing data to a secure Azure service location.",
+      "Led customer meetings to learn about customer needs and integrated findings into our final product as both a project managaer and software engineer.",
+      "Wrote product and technical specification documents for planning out implementation and presented to upper-level software engineers, project managers, and management on the Web Defense team for approval.",
+    ],
+  },
+  {
+    title: "STEP Intern (SWE)",
+    company_name: "Google",
+    icon: google,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - Aug 2021",
+    points: [
+      "Developed unit and integration testing infrastructure for Nest thermostat's sync path by designing test approach and creating all tests.",
+      "Simplified test cases by refactoring to reduce code duplication, increasing maintainability and readability.",
+      "Wrote design doc, underwent design reviews, and implemented the final testing infrastructure.",
     ],
   },
 ];

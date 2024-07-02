@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import elevateconsulting from "./company/elevateconsulting.png";
+import microsoft from "./company/microsoft.png";
+import google from "./company/google.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +59,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  elevateconsulting,
+  microsoft,
+  google,
   carrent,
   jobit,
   tripguide,
