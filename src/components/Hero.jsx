@@ -16,37 +16,37 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Alex</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>Software Engineer | Web Developer | iOS Developer</p>
           <div className="flex sm:flex-row mt-7">
-                        <a
-                            href="https://github.com/caowens"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                GitHub
-                            </button>
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/alex-owens-ab868b1b6/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                LinkedIn
-                            </button>
-                        </a>
-                        <a
-                            href="https://docs.google.com/document/d/1LRApc64PZ3PW48Trs1fEMalDN6QZV92nDtidLi4rPvE/edit?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                Resume
-                            </button>
-                        </a>
-                    </div>
+            <a
+                href="https://github.com/caowens"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+            >
+                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
+                    GitHub
+                </button>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/alex-owens-ab868b1b6/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+            >
+                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
+                    LinkedIn
+                </button>
+            </a>
+            <a
+                href="https://docs.google.com/document/d/1LRApc64PZ3PW48Trs1fEMalDN6QZV92nDtidLi4rPvE/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+            >
+                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
+                    Resume
+                </button>
+            </a>
+          </div>
         </div>
       </div>
 
