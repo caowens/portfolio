@@ -23,7 +23,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks />  */} {/* Add this back when adding volunteer work */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
