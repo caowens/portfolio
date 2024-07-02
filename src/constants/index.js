@@ -37,6 +37,9 @@ import {
   elevateconsulting,
   microsoft,
   google,
+  codepathintroios,
+  foundationcsharp,
+  codepathintermediateios,
 } from "../assets";
 
 export const navLinks = [
@@ -290,4 +293,62 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    name: "CodePath Intermediate iOS Development",
+    description:
+      "Web-based journal that allows users to get a sentiment analysis emotion from their entries and view a graph to see how their mood has changed over time.",
+    tags: [
+      {
+        name: "swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "swiftui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: codepathintroios,
+    source_code_link: "https://drive.google.com/file/d/1bAc999q4_lD5Wj6V9c4tQjTvnHgsRMB3/view",
+  },
+  {
+    name: "Foundational C# with Microsoft",
+    description:
+      "Web application that enables users to see which news sites have which political bias, and filter between left-leaning, right-leaning, and center.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "green-text-gradient",
+      },
+    ],
+    image: foundationcsharp,
+    source_code_link: "https://www.freecodecamp.org/certification/caowens/foundational-c-sharp-with-microsoft",
+  },
+  {
+    name: "CodePath Intro to iOS Development",
+    description:
+      "An iOS application that allows users to view and read available free books and manage thier own collections.",
+    tags: [
+      {
+        name: "swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "uikit",
+        color: "green-text-gradient",
+      },
+    ],
+    image: codepathintermediateios,
+    source_code_link: "https://drive.google.com/file/d/1PiBcJ56kRIBl-eDo86EN-xpzpJBUhuSk/view",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates };
