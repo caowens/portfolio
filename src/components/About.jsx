@@ -46,7 +46,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in Javascript, Python,
-        Swift, C# and expertise in frameworks like React and sNode.js.
+        Swift, C# and expertise in frameworks like React and Node.js.
         I'm a recent graduate with a Bachelor's of Science in Computer Science
         degree from Fisk University. I'm a quick learner and collaborate closely
         with clients to create efficient, scalable, and user-friendly solutions
