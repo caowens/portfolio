@@ -233,7 +233,7 @@ These are resources I've found helpful and would like to give credit to.  -->
 <!-- * [Malven's Grid Cheatsheet](https://grid.malven.co/) -->
 <!-- * [GitHub Pages](https://pages.github.com) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
