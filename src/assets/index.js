@@ -14,13 +14,11 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-// import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import csharp from "./tech/csharp.png";
 import swift from "./tech/swift.png";
@@ -28,8 +26,9 @@ import java from "./tech/java.png";
 import bootstrap from "./tech/bootstrap.png";
 import firebase from "./tech/firebase.png";
 import postman from "./tech/postman.png";
-import threejs from "./tech/threejs.png";
 import vite from "./tech/vite.png";
+import scala from "./tech/scala.png";
+import azure from "./tech/azure.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,13 +64,11 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
-  threejs,
   python,
   csharp,
   swift,
@@ -97,4 +94,6 @@ export {
   codepathintroios,
   foundationcsharp,
   codepathintermediateios,
+  scala,
+  azure,
 };
