@@ -11,7 +11,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -33,13 +32,13 @@ import {
   sentijournal,
   politicallycorrect,
   booknook,
-  threejs,
-  elevateconsulting,
   microsoft,
   google,
   codepathintroios,
   foundationcsharp,
   codepathintermediateios,
+  scala,
+  azure,
 } from "../assets";
 
 export const navLinks = [
@@ -122,16 +121,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Firebase",
     icon: firebase,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -149,20 +140,28 @@ const technologies = [
     name: "vite",
     icon: vite,
   },
+  {
+    name: "scala",
+    icon: scala,
+  },
+  {
+    name: "azure",
+    icon: azure,
+  },
 ];
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Elevate Consulting",
-    icon: elevateconsulting,
+    title: "Software Engineer 1",
+    company_name: "Microsoft",
+    icon: microsoft,
     iconBg: "#383E56",
-    date: "June 2023 - Present",
+    date: "Aug 2024 - Aug 2025",
     points: [
-      "Designing, developing and maintaining a web application using React.js and other related technologies.",
-      "Collaborating with designers and managers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Consulting with clients for help with their websites or software-related problems for their small business.",
+      "Developed Safe Deployment Practices for enterprise security services by building automated UI (TypeScript + Playwright) and E2E tests (Selenium + pytest), improving deployment confidence and service reliability.",
+      "Reduced CI/CD deployment time by 77% (1,170 → 270 minutes) through YAML template optimization, accelerating global rollouts.",
+      "Built Scala libraries and Azure Synapse data pipelines, delivering telemetry and usage reporting; led a cross-team project to enable a new region under tight deadlines.",
+      "Owned on-call for a new internal service (resolved ~90% of incidents) and mentored 3 new hires on workflows, architecture, and sprint processes.",
     ],
   },
   {
