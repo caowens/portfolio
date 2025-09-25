@@ -363,7 +363,7 @@ const contacts = [
   {
     method: "LinkedIn",
     detail: "linkedin.com/in/iamalexowens",
-    link: "http://www.linkedin.com/in/iamalexowens",
+    link: "https://www.linkedin.com/in/iamalexowens",
     icon: linkedin,
   },
   {
