@@ -49,6 +49,9 @@ import codepathintroios from "./codepathintroios.png";
 import foundationcsharp from "./foundationcsharp.png";
 import codepathintermediateios from "./codepathintermediateios.png";
 
+import email from "./email.png";
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -96,4 +99,6 @@ export {
   codepathintermediateios,
   scala,
   azure,
+  linkedin,
+  email,
 };
