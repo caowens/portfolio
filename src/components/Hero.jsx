@@ -27,7 +27,7 @@ const Hero = () => {
                 </button>
             </a>
             <a
-                href="https://www.linkedin.com/in/alex-owens-ab868b1b6/"
+                href="https://www.linkedin.com/in/iamalexowens"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"

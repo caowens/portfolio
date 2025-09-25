@@ -39,6 +39,9 @@ import {
   codepathintermediateios,
   scala,
   azure,
+  github,
+  linkedin,
+  email,
 } from "../assets";
 
 export const navLinks = [
@@ -350,4 +353,25 @@ const certificates = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, certificates };
+const contacts = [
+  {
+    method: "Email",
+    detail: "caowens256@gmail.com",
+    link: "mailto:caowens256@gmail.com",
+    icon: email,
+  },
+  {
+    method: "LinkedIn",
+    detail: "linkedin.com/in/iamalexowens",
+    link: "https://www.linkedin.com/in/iamalexowens",
+    icon: linkedin,
+  },
+  {
+    method: "GitHub",
+    detail: "github.com/caowens",
+    link: "https://github.com/caowens",
+    icon: github,
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates, contacts };
