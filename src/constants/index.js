@@ -32,6 +32,7 @@ import {
   github,
   linkedin,
   email,
+  lifted,
 } from "../assets";
 
 export const navLinks = [
@@ -220,6 +221,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Lifted API",
+    description:
+      "Lifted API is a secure Express and MongoDB backend featuring JWT authentication, user and quote management, Arcjet-based bot and rate-limit protection, and interactive Swagger documentation.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lifted,
+    source_code_link: "https://github.com/caowens/lifted-api",
+  },
   {
     name: "SentiJournal",
     description:

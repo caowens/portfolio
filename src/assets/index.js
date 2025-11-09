@@ -44,6 +44,7 @@ import tripguide from "./tripguide.png";
 import sentijournal from "./sentijournal.png";
 import politicallycorrect from "./politicallycorrect.png";
 import booknook from "./booknook.png";
+import lifted from "./lifted.jpg";
 
 import codepathintroios from "./codepathintroios.png";
 import foundationcsharp from "./foundationcsharp.png";
@@ -93,6 +94,7 @@ export {
   sentijournal,
   politicallycorrect,
   booknook,
+  lifted,
   certificateicon,
   codepathintroios,
   foundationcsharp,
