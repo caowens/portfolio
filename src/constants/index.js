@@ -133,6 +133,10 @@ const technologies = [
     name: "azure",
     icon: azure,
   },
+  {
+    name: "docker",
+    icon: docker,
+  }
 ];
 
 const experiences = [
